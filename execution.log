@@ -1,0 +1,24 @@
+2024-12-15 22:39:26,446 - INFO - No existing images found. Converting PDF to images...
+2024-12-15 22:40:15,492 - INFO - Successfully converted PDF to 22 images
+2024-12-15 22:40:18,372 - INFO - Saved page 1 to extracted_pages\page_001.png
+2024-12-15 22:40:20,689 - INFO - Saved page 2 to extracted_pages\page_002.png
+2024-12-15 22:40:22,626 - INFO - Saved page 3 to extracted_pages\page_003.png
+2024-12-15 22:40:24,966 - INFO - Saved page 4 to extracted_pages\page_004.png
+2024-12-15 22:40:27,130 - INFO - Saved page 5 to extracted_pages\page_005.png
+2024-12-15 22:40:29,646 - INFO - Saved page 6 to extracted_pages\page_006.png
+2024-12-15 22:40:30,515 - INFO - Saved page 7 to extracted_pages\page_007.png
+2024-12-15 22:40:31,896 - INFO - Saved page 8 to extracted_pages\page_008.png
+2024-12-15 22:40:33,245 - INFO - Saved page 9 to extracted_pages\page_009.png
+2024-12-15 22:40:34,553 - INFO - Saved page 10 to extracted_pages\page_010.png
+2024-12-15 22:40:36,131 - INFO - Saved page 11 to extracted_pages\page_011.png
+2024-12-15 22:40:37,561 - INFO - Saved page 12 to extracted_pages\page_012.png
+2024-12-15 22:40:38,888 - INFO - Saved page 13 to extracted_pages\page_013.png
+2024-12-15 22:40:40,253 - INFO - Saved page 14 to extracted_pages\page_014.png
+2024-12-15 22:40:41,239 - INFO - Saved page 15 to extracted_pages\page_015.png
+2024-12-15 22:40:41,959 - INFO - Saved page 16 to extracted_pages\page_016.png
+2024-12-15 22:40:42,640 - INFO - Saved page 17 to extracted_pages\page_017.png
+2024-12-15 22:40:43,703 - INFO - Saved page 18 to extracted_pages\page_018.png
+2024-12-15 22:40:44,530 - INFO - Saved page 19 to extracted_pages\page_019.png
+2024-12-15 22:40:45,857 - INFO - Saved page 20 to extracted_pages\page_020.png
+2024-12-15 22:40:46,681 - INFO - Saved page 21 to extracted_pages\page_021.png
+2024-12-15 22:40:48,617 - INFO - Saved page 22 to extracted_pages\page_022.png
