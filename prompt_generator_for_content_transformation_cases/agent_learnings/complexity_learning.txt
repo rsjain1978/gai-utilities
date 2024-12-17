@@ -1,0 +1,40 @@
+# Analysis of Text Transformation
+
+## 1. Sentence Length Variations
+The **INPUT TEXT** generally contains longer, more complex sentences, which often include multiple clauses and detailed explanations. For example, the original text includes sentences like, "_Our service fee is charged for administering your accounts, with flexible options for amounts less than £25,000._" 
+
+In contrast, the **OUTPUT TEXT** utilizes shorter and more precise sentences. For instance, it states, "_Service fees include account administration and investment tools, starting at 0.35% annually for under £250,000, reducing to 0.20% for larger investments._" This transformation results in a clearer presentation, as information is conveyed in digestible chunks without loss of meaning.
+
+### Summary:
+- **INPUT TEXT:** Longer and more complex sentences, often leading to fatigue in readers.
+- **OUTPUT TEXT:** Shorter, clearer sentences that are easier to read and comprehend.
+
+## 2. Structural Complexity Changes
+The **INPUT TEXT** employs a more structured approach with headings, bullet points, tables, and extensive use of sub-sections to organize the information. It contains a nesting of ideas and a range of topics under different headings, presenting a comprehensive but densely packed body of information.
+
+The **OUTPUT TEXT** simplifies this structure significantly. It condenses various points into a more straightforward narrative format. While it still provides some level of structure, it eschews bullet points and tables in favor of a more fluid style that captures the essential points without elaborating excessively on each.
+
+### Summary:
+- **INPUT TEXT:** Highly structured with nested headings, bullet points, and extensive tables.
+- **OUTPUT TEXT:** Simplified structure with a focus on fluid narrative, reducing complexity while maintaining essential details.
+
+## 3. Cognitive Load Modifications
+The cognitive load required to process the **INPUT TEXT** is significantly higher due to its complexity and the volume of information presented. Readers need to navigate through multiple sections and sub-sections, which can be overwhelming, especially for individuals unfamiliar with investment fees.
+
+On the other hand, the **OUTPUT TEXT** reduces cognitive load by presenting the information in a linear format without excessive elaboration. The concise nature of the transformed text allows readers to grasp the key points without needing to cross-reference multiple sections, making it easier for the reader to focus on the essential information.
+
+### Summary:
+- **INPUT TEXT:** High cognitive load, requiring extensive mental effort to parse through complex and abundant information.
+- **OUTPUT TEXT:** Lower cognitive load through simplified presentation and streamlined information.
+
+## 4. Comprehension Difficulty Shifts
+The **INPUT TEXT** contains jargon and detailed explanations that can be challenging for the average reader to understand. Terms such as "reinvestment," "ongoing charges," and "financial transaction tax" are not always clearly defined, potentially leading to confusion.
+
+In contrast, the **OUTPUT TEXT** clarifies these concepts by using plain language and providing succinct definitions integrated within the flow of information. This approach increases accessibility and lowers comprehension difficulty, allowing a broader audience to understand the content without prior knowledge of financial terminology.
+
+### Summary:
+- **INPUT TEXT:** Higher comprehension difficulty due to jargon, extensive details, and complex sentence structures.
+- **OUTPUT TEXT:** Lower comprehension difficulty achieved through simplified language and clear definitions, facilitating broader understanding.
+
+# Conclusion
+Overall, the transformation from the **INPUT TEXT** to the **OUTPUT TEXT** represents a significant improvement in readability and accessibility. By employing shorter sentences, a simplified structure, and reducing cognitive load, the transformed text enables better comprehension of the fees and charges associated with investment services, making it accessible to a wider audience.

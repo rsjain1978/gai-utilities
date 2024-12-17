@@ -1,0 +1,253 @@
+Fees and charges
+
+
+
+
+# Fees and charges
+
+We calculate your fees based on your total investment value, not per account.
+
+**Important information -** please keep in mind that the value of investments can go down as well up, so you may get back less than you invest. This information is not a personal recommendation for any particular investment. If you are unsure about the suitability of an investment you should speak to one of [Fidelity's advisers](/services/advice/) or an authorised financial adviser of your choice.
+
+## Fees at a glance
+
+**Here's what you'll pay**
+
+1. **Service fees** \- set by and paid to us for the services we provide, including our wide range of investment options, administering your accounts and ensuring the safety of your savings.
+2. **Investment charges** \- set by and paid to the manager of your investments, depending on what you choose to invest in.
+
+You can download the
+
+[Doing Business with Fidelity document](/media/PI%20UK/pdf/legal/Direct_Key_features_document.pdf) for more detail on our fees and charges.
+
+**Fees charged by Fidelity**
+
+### Service fee
+
+Our service fee is charged for administering your accounts, with flexible options for amounts less than £25,000.
+
+- **Less than £25,000**
+
+
+
+**With a regular savings plan**-0.35% (roughly £3.50 per month for every £1,000 invested)
+
+
+
+**Without a regular savings plan**-£7.50 flat fee per month (£90 a year)
+- **£25,000 or more but less than £250,000**-0.35%of the total value of your investments
+- **£250,000 or more but less than £1 million**\- 0.20%reduced fee (you'll also qualify for [Fidelity's Wealth Management Service](/services/wealth/) benefits)
+- **£1 million or more** - 0.20% a year for the first £1 million. No charge for investments over £1 million
+
+**Shares**
+
+**Service fee applied to any exchange-traded investments, including shares, in an ISA or SIPP** \- 0.35% (reduced to 0.20% if you invest £250,000 or more) and capped at £7.50 per month
+
+**No service fee for**
+
+Junior accounts ( [Junior ISA](/junior-isa/) and [Junior SIPPs](/junior-sipp/)), and exchange-traded investments held in an Investment Account
+
+### Dealing fees
+
+Our dealing fees are charged on buy and sell transactions you place through our share dealing service.
+
+**Funds**
+
+- We don't charge dealing fees on fund deals. Dealing fees only apply to shares
+
+**Shares**
+
+- Share deals as part of a regular savings or withdrawal plan, or for a reinvestment of income or a dividend - **£1.50**
+- Share deals placed online - **£7.50**
+- Share deals placed by phone - **£30.00**
+
+Please note: additional charges may apply when trading exchange-traded instruments (shares, ETFs and investment trusts). To learn more, go to the
+
+[fees in more detail](#fees-and-charges) section.
+
+**Investment fees and charges (set by the manager of your investments)**
+
+The wide choice of funds available have a range of ongoing charges, which start from as low as **0.05%.** And some funds may have additional fees and charges. Specific details are found in the investment's factsheet or Key Information Document. We negotiate discounted ongoing charges on hundreds of funds on our platform and we're always looking to add more. [Take a look at the full list here.](/services/charges-fees/fund-discounts/#?investmentType=funds&filtersSelectedValue=%7B%7D&page=1&perPage=10&sortField=legalName&sortOrder=asc&subUniverseId=MFND&universeId=FOGBR$$ALL_3998)
+
+![None](/media/filer_public_thumbnails/PI%20UK/images/text-media-group/woman-playing-with-girl-child-on-laptop.jpg__500x335_q85_subsampling-2.jpg)
+
+### What you don't pay for
+
+You'll be pleased to know that there are many things that we don't charge for, including:
+
+- Service fees on junior accounts and exchange-traded investments held in an Investment Account
+- Service fees on cash held in your accounts
+- Exit fees
+- Buying, switching or selling funds
+
+Read the full list of things we don't charge for
+
+## Here's a service fee example
+
+These scenarios are examples to give you an idea of how we calculate the service fee you would be charged.
+
+| Amount invested | Annual service fees with monthly RSP | Annual service fees without monthly RSP |
+| --- | :-: | :-: |
+| £5,000 | £17.50 (0.35%) | £90 (£7.50 a month) |
+| £24,999 | £87.49 (0.35%) | £90 (£7.50 a month) |
+| £25,000 | £87.50 (0.35%) |
+| £55,000 | £192.50 (0.35%) |
+| £100,000 | £350.00 (0.35%) |
+| £250,000 | £500.00 (0.2%) |
+| £1,000,000+ | £2,000 (0.2%) is maximum fee you will ever pay for all of your personal accounts a year |
+
+[Estimate my fees](/estimate-my-fees/)
+
+![None](/media/filer_public_thumbnails/PI%20UK/images/text-media-group/calender.jpg__500x335_q85_subsampling-2.jpg)
+
+### How we collect your fee
+
+When you invest with us, we provide you with a separate account called a Cash Management Account (CMA) to pay your service fees from.\*
+
+- We collect the service fee from your CMA around the 1st of every month.
+- There's no fee on your CMA. It's simply there for us to collect your fee instead of collecting money from your investments. This means any tax-wrapped investments you may have, such as an ISA or SIPP, are left to grow.
+- For joint accounts, we collect fees directly from cash within your joint investment accounts, as Cash Management Accounts aren’t available for accounts held jointly. For more information on joint accounts, go to page 11 of the [Doing Business with Fidelity document](/media/PI%20UK/pdf/legal/Direct_Key_features_document.pdf)
+
+**\*If there's not enough cash in your CMA, we'll collect fees from cash within your account before selling some of your investments in your other accounts to cover charges.**
+
+[Read more on how fees are taken](/cash-management-account/)
+
+## Fees and charges in detail
+
+We want you to have full transparency of our fees so that you have a clear understanding of what to expect when you invest with us. If you want to read more detail about our fees and charges in your own time, please download the
+
+[Doing Business with Fidelity document](/media/PI%20UK/pdf/legal/Direct_Key_features_document.pdf).
+
+[**Our service fee**](#accordion-9a2947b3)
+
+This table shows how fees differ depending on the value of your investment(s). For shares, exchange-traded funds (ETFs) and investment trusts, this portion of the fee is capped at **£90 (£7.50 a month)** and we don't charge a service fee for junior accounts or for exchange-traded investments held in an Investment Account, or on cash held in your accounts.
+
+Remember, our service fee applies to the total of all your investments. Our fee also includes our online guidance tools, news and insights from industry experts and our secure, easy-to-use investing platform and app.
+
+| **Total value of investments** | Service fee (annual amount or %) |
+| --- | --- |
+| Less than £25,000 | 0.35%  - if you have a regular savings plan or £90 (£7.50 a month) if you don't |
+| £25,000 or more but less than £250,000 | 0.35% - of the total value of your investments |
+| £250,000 or more but less than £1 million | 0.20% - and you will automatically qualify for [Fidelity's Wealth Management Service](/services/wealth/) benefits |
+| £1 million+ | 0.20% a year -  for the first £1 million and no service fee for investments over £1 million. This means the maximum fee you will ever pay for all of your personal accounts is £2,000 a year |
+
+The same service fee is charged across all of your investments. So, if you hold £300,000 - the fee would be 0.20% across the full amount.
+
+**What if I want to invest using a financial adviser?**
+
+Charges could be different from the ones you hold directly with us. We suggest you speak with your financial adviser to find out more about what charges and fees will be applied.
+
+[**Share dealing fees and other charges**](#accordion-282b566c)
+
+For exchange-traded instruments (shares, ETFs and investment trusts), there is a charge for each buy and sell transaction you place (including switches and dividend reinvestments), which is listed on the fund's factsheet. This charge will be deducted from the amount invested or raised through a sale.
+
+**Share dealing fees**
+
+- Share deals as part of a regular savings or withdrawal plan, or for a reinvestment of income or a dividend - **£1.50**
+- Share deals placed online - **£7.50**
+- Share deals placed by phone - **£30.00**
+
+**Stamp Duty (a tax on share purchases and transfers)**
+
+- Buying UK shares - **0.5%**
+- Buying Irish shares - **1.0%**
+
+**Levies (a charge automatically applied on share purchases and sales over certain amount)**
+
+- May apply on UK share deals over £10,000 - UK Panel of Takeovers and Mergers levy of **£1.50.** [See T&Cs for details](/media/PI%20UK/pdf/legal/Direct_Key_features_document.pdf)
+- May apply on Irish share deals over €12,500 - Irish Takeover Panel levy of **€1.25.** [See T&Cs for detail](/media/PI%20UK/pdf/legal/Direct_Key_features_document.pdf)
+
+**Financial transaction tax (a charge on the purchases of some exchange-traded instruments)**
+
+Includes a number of countries internationally (some in Europe). The current charge for instruments domiciled in Spain is **0.2%.**
+
+**Foreign exchange (FX) charges**
+
+- Applied when dealing in offshore funds that are not in sterling
+- Applied when dealing in international shares
+- FX charges are tiered based on the amount you are dealing. Larger trades pay a lower percentage.
+
+[View FX breakdown](javascript:void(0);)
+
+[**Investment fees set by companies managing your funds**](#accordion-c0bb7fe2)
+
+Ongoing fund charges are set by the companies who manage the funds and sit outside of our service fee and share dealing fees. The wide choice of funds available have a range of ongoing charges, which start from as low as **0.05%**. And some funds may also have additional fees and charges, including:
+
+- A bid-offer spread, which is effectively a charge applied when you buy or sell
+- A performance fee
+- A fund manager buy or sell charge
+
+We’ve negotiated discounted ongoing charges on hundreds of funds on our platform. Some discounts are already included in the fund's regular charges, so you pay less automatically. In other cases, the discount will be given as a payment that gets reinvested into the qualifying funds at the end of each quarter. This is called a quarterly rebate.
+
+Any rebates you get in an Investment Account might be subject to income tax at your marginal tax rate. We recommend checking each investment's factsheet for more information, as investment charges can differ between funds.
+
+[View fund discounts](/services/charges-fees/fund-discounts/)
+
+Details of the specific charges can be found on the investment's factsheet or Key Information Document.
+
+[**Cash within your account**](#accordion-d1f54a43)
+
+Cash in your Fidelity accounts is held as ‘cash within your account’. We don't charge service fees on cash within your account or charge for withdrawals. We pay interest on cash balances too.
+
+Please note: we do not charge a service fee for holding cash. We'll retain interest from the bank(s) to enable us to continue to develop our products and services, and to help keep our platform fees low.
+
+[Visit how we manage your cash](/statutory-and-regulatory-disclosures/how-we-manage-your-cash/) to see the interest we pay and the banks we use.
+
+## What next?
+
+#### Choose an account
+
+Choose from a Stocks and Shares ISA, Self-Invested Personal Pension (SIPP), Investment Account and Junior accounts.
+
+[Find an account](/planning-guidance/find-an-account/)
+
+#### Choose investments
+
+Need help deciding? Whether you're a beginner or an advanced investor, we have the right tool to help you find your next investment.
+
+[Find investments](/planning-guidance/choosing-your-investments/)
+
+#### Transfer an account
+
+Transfer ISAs, pensions, investment accounts or junior accounts to Fidelity to manage them quickly easily and all in one place.
+
+[Transfer an account](/transfer/)
+
+**Important information** \- please note that these guidance tools are not a personal recommendation in respect of a particular investment. If you need additional help, please speak to one of
+
+[Fidelity's advisers](/services/advice/) or an authorised financial adviser of your choice. You should regularly reassess the suitability of your investments to ensure they continue to meet your attitude to risk and investment goals.
+
+## FAQs
+
+[**How do I pay my account fee?**](#accordion-763baafb)
+
+You can top up your Cash Management Account with cash using a debit card, or if there’s no cash in your account we can sell some of your investments to cover it. The fee is payable monthly in arrears and taken on the 1st of the month.
+
+[**What if I don’t have enough money in my account to pay my charges?**](#accordion-a58d0104)
+
+When you pay service fees, they are always taken from your Cash Management Account.
+
+- If you have cash in there, we will take the fees from this cash rather than any tax-wrapped ISA and SIPP investments you may have.
+- If you don't have enough cash in your Cash Management Account, we will sell from the account the fee has come from to make up the outstanding balance and transfer that to the Cash Management Account. When we do this, we have a hierarchy and start by selling from cash within your account, then your largest investment by value and by asset class. This means for example we would take the fee from the largest fund before we take it from an exchange-traded fund or investment trust.
+- We take your ISA fees first, then SIPP, and finally any Investment Accounts from the Cash Management Account. This gives you the best chance of keeping your ISA and SIPP savings where they are.
+
+Download the [Doing Business with Fidelity document](/media/PI%20UK/pdf/legal/Direct_Key_features_document.pdf) for full details of how this works.
+
+[**How do I pay my fee for a joint account?**](#accordion-612a78a6)
+
+For joint accounts that you hold, we take the fee directly from those accounts, and not from the Cash Management Account.
+
+[**How much interest do I earn on cash in my accounts?**](#accordion-58d04d16)
+
+Check out the latest interest rates we pay [here](/statutory-and-regulatory-disclosures/how-we-manage-your-cash/). Plus it's good to know there are no fees for holding cash.
+
+[**What is included in my account at no extra cost?**](#accordion-063738a4)
+
+There are many things that we don't charge for, including:
+
+- Service fees on junior accounts and exchange-traded investments held in an Investment Account
+- Service fees on cash held in your accounts
+- Exit fees
+- Buying, switching or selling funds
+
+Read the full list of things we don't charge for

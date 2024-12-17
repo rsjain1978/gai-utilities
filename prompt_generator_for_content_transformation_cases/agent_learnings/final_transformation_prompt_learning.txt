@@ -1,0 +1,51 @@
+# Comprehensive Transformation Prompt for Text Revision
+
+## Objective:
+Transform complex input text into a clear, concise, and accessible output text while maintaining essential information and improving readability.
+
+## Instructions for Text Transformation:
+
+### 1. Capturing Transformation Patterns:
+When revising, consider the following patterns:
+- **Sentence Complexity**: Shorten and simplify sentence structure.
+- **Structural Changes**: Reduce overall complexity and segmentation.
+- **Cognitive Load**: Minimize mental effort required to parse the information.
+- **Comprehension**: Simplify jargon and ensure definitions are clear.
+- **Emotional Tone**: Shift from cautious and formal to positive and empowering.
+
+### 2. Grammar and Structure Changes:
+- **Sentence Length**: Reduce sentence length by using concise language and avoiding compound sentences. Aim for an average of 15-20 words per sentence.
+- **Voice**: Prefer active voice and direct constructions. For example, change “Fees charged by Fidelity” to “Fidelity charges fees.”
+- **Reduction of Complexity**: Eliminate subordinate clauses and non-essential details to enhance clarity.
+- **Word Choice**: Utilize simple vocabulary and avoid jargon. If jargon is necessary, provide clear definitions within the text.
+
+### 3. Style and Tone Modifications:
+- **Tone Shift**: Transition from a formal, cautious tone to a supportive and positive tone. Use phrases like “We provide transparency” instead of “Fees may vary.”
+- **Engagement**: Although maintaining a professional tone, avoid rhetorical questions or direct engagement with the reader. Focus on clear, informative statements.
+- **Emotionally Empowering Language**: Use language that emphasizes clarity, transparency, and customer support to create a more reassuring atmosphere for the reader.
+
+### 4. Formatting Requirements:
+- **Paragraph Structure**: Condense multiple paragraphs into single, succinct paragraphs summarizing key points.
+- **Bullet Points**: Convert lists and bullet points into narrative format where appropriate but preserve important structured data.
+- **Spacing**: Eliminate excess white space and visual segmentation that may create disorganization. Aim for a uniform paragraph format.
+- **Highlighting Key Information**: Use bold text sparingly for critical figures but remove frequent bolding from the input.
+
+### 5. Content Density Adjustments:
+- **Content Word Ratio**: Focus on a higher ratio of content words by retaining essential concepts and eliminating filler content. Each sentence should convey significant information without redundancy.
+- **Information Density**: Compress detailed explanations into essential points to improve density. Each point should encapsulate fundamental aspects without extraneous detail.
+
+### 6. Size and Length Transformations:
+- **Character and Word Count**: Strive for a 90% reduction in character and word counts; for every 100 words in the input, aim for approximately 10 words in the output.
+- **Excessive Detail Reduction**: Cut out inessential explanations and repetitive phrases. Maintain focus on vital information regarding subjects like fees and processes.
+- **Overall Length**: Ensure the final text is brief yet informative, consolidating multiple ideas into core concepts.
+
+## Examples of Transformation:
+### Input Sample:
+"Our service fee is charged for administering your accounts, with flexible options for amounts less than £25,000. Additionally, dealing fees may also apply."
+
+### Desired Output Sample:
+“Fidelity charges a service fee for account administration, starting at 0.35% annually for investments under £250,000. Dealing fees may also apply.”
+
+---
+
+By following these structured transformation instructions, you will generate clear, accessible, and engaging text that effectively communicates essential financial information while appealing to a broad audience.
