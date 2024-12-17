@@ -1,0 +1,28 @@
+### Analysis of Grammatical Patterns and Sentence Structures
+
+1. **Structuring and Organization**:
+   - The text is structured into clearly defined sections, often using headings and subheadings to categorize information (e.g., "Fees and charges", "Fees at a glance").
+   - Bulleted and numbered lists provide concise information and highlight important details.
+
+2. **Tone and Style**:
+   - The tone is formal and informative, suitable for a financial advisory context.
+   - There is a mixture of long, explanatory sentences alongside short, impactful sentences to maintain reader engagement.
+
+3. **Technical Language**:
+   - The text employs specific financial terminology (e.g., "investment value," "service fees," "dealing charges") indicating a specialized knowledge in the finance sector.
+   - Frequently used technical terms are explained or defined, ensuring clarity for readers.
+
+4. **Emphasis**:
+   - Important information is highlighted through bolding or italics to draw attention (e.g., "Here's what you'll pay", "No service fee for...").
+   - The phrase "Important information - please keep in mind" signals crucial information to the reader.
+
+5. **Use of Examples**:
+   - The text includes examples (e.g., fee structure based on investment amounts) to clarify abstract concepts and help readers understand potential charges.
+
+6. **Inviting Action and Engagement**:
+   - Calls to action are included (e.g., "Download the Doing Business with Fidelity document", "Estimate my fees") encouraging readers to interact further with the service.
+
+### Generated Prompt for Similar Text
+
+**System Prompt**:
+"Write a comprehensive informational document outlining the fees and charges associated with a financial service or investment option. Structure your document with clear headings and subheadings to organize content logically. Use bulleted and numbered lists to present key information succinctly. Maintain a formal tone while using specific financial terminology; explain terms as necessary for clarity. Include bolded text for crucial pieces of information and provide examples to illustrate different fee scenarios. Ensure to incorporate calls to action that invite the reader to engage further with the service, like downloading documents or estimating potential charges."

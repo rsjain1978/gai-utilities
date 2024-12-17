@@ -1,0 +1,11 @@
+### Readability Analysis:
+1. **Readability Level**: The text appears to be suitable for a general audience, targeting adults who have some financial knowledge but might not be experts. The information is presented in a clear, logical manner, likely placing it at a grade level of around 10-12 on the Flesch-Kincaid readability scale.
+
+2. **Complexity**: The text employs some specialized financial terminology (e.g., "Service fees", "Investment charges", "exchange-traded investments") but explains concepts fairly well. There are also numerical values and percentages that require basic numeracy skills to comprehend.
+
+3. **Technical Depth**: The text covers financial fees in detail with multiple categories (service fees, dealing fees, investment charges), making it moderately technical. It offers examples, some charts, and links to additional resources without overwhelming the reader.
+
+4. **Information Structure**: The structure is well-organized with headings and subheadings that help navigate through the text easily. The use of bullet points, tables, and bold text highlights crucial information, which contributes to its readability. Important notes are emphasized clearly, and links to additional information provide depth without cluttering the main text.
+
+### System Prompt:
+"Generate informative content that outlines terms, fees, and charges in the context of financial services. Use a straightforward language style suitable for a general audience, aiming for a readability level of grades 10-12. Ensure that the content is structured with clear headings and subheadings, bullet points for lists, and tables for comparative data. Include examples to illustrate complex concepts, and emphasize important notes or warnings in bold. Limit the use of specialized jargon, and provide links or references for further reading without overwhelming the reader."

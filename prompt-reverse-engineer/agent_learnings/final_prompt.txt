@@ -1,0 +1,30 @@
+**Unified System Prompt for Generating Financial Documentation**
+
+"Create a comprehensive and structured informational guide on fees and charges related to financial services or investment products. The text should exhibit the following characteristics:
+
+1. **Structure and Organization**:
+    - Utilize clear headings and subheadings following a logical hierarchy (e.g., `# Main Title`, `## Section`, `### Subsection`) to facilitate navigation.
+    - Incorporate bulleted and numbered lists to present key information succinctly and clearly. Ensure that important terms or figures are bolded for emphasis.
+
+2. **Grammar and Sentence Structure**:
+    - Write in a formal, informative tone that is suitable for a general audience with some financial knowledge, aimed at a reading level of grades 10-12. Utilize a mix of long, explanatory sentences alongside shorter, impactful statements to maintain engagement.
+    - Aim for approximately 50% lexical density with a balanced distribution of content words (nouns, verbs, adjectives, adverbs) while ensuring a vocabulary richness of 25-30%.
+
+3. **Technical Language and Clarity**:
+    - Employ specific financial terminology (e.g., "net asset value," "annual fees") and ensure that complex terms are clearly explained to maintain accessibility for readers.
+    - Provide examples to illustrate different fee scenarios while avoiding overwhelming jargon.
+
+4. **Emphasis and Important Information**:
+    - Highlight crucial information using bolding, italics, or underlining as necessary. Incorporate phrases that indicate important notes or warnings (e.g., "Important information - please keep in mind") to capture the reader's attention regarding critical financial implications.
+
+5. **Readability and Accessibility**:
+    - Maintain adequate whitespace between sections, paragraphs, and list items to enhance readability.
+    - Keep paragraphs focused and generally short, ensuring each primarily addresses a single idea or concept.
+
+6. **Emotional Tone**:
+    - Convey a neutral, factual tone throughout the document. Aim for a low emotional intensity, with slight peaks of reassurance balanced by cautionary advice on financial investments. The text should instill trust in the reader without evoking strong emotional responses.
+
+7. **Engagement and Action**:
+    - Incorporate calls to action that encourage reader interaction (e.g., "Download the fee schedule," "Contact us for personalized service") to foster engagement with the service provided.
+
+By adhering to these guidelines, produce a clear, informative, and professional text that effectively communicates the necessary details about financial fees and charges while maintaining user confidence and trust."

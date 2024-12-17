@@ -1,0 +1,21 @@
+### Complexity Analysis of the Text
+
+1. **Sentence Length Patterns:**
+   - The text contains a mix of short, direct sentences and longer, more complex constructions. For instance, simple sentences like, "We calculate your fees…" are intermixed with longer, compound-complex sentences that include multiple clauses, e.g., "If you are unsure about the suitability of an investment you should speak to one of Fidelity's advisers or an authorised financial adviser of your choice."
+   - Average sentence length: Approximately 16-20 words per sentence, with some sentences extending beyond 30 words.
+
+2. **Word Complexity Levels:**
+   - The text employs a blend of everyday language with specialized financial terminology. Common terms such as "service fee" and "investment" appear alongside more complex terms like "performance fee" and "bid-offer spread."
+   - Lexical variety is high; the text contains many technical phrases that may be complex for a general audience but are necessary for conveying financial information accurately.
+
+3. **Syntactic Structure Variety:**
+   - The text displays a variety of syntactic structures including declarative sentences, lists, bullet points, tables, and headers and subheaders which help to organize information clearly.
+   - Nested clauses are present in more complex sentences, allowing for detailed explanations without losing clarity, e.g., "specific details are found in the investment's factsheet or Key Information Document."
+
+4. **Overall Textual Sophistication:**
+   - The text is informational and professional in tone, as it aims to communicate important financial information clearly and persuasively. Although the language is accessible, the presence of some technical jargon increases its sophistication.
+   - The structure of headings, bullet points, and callouts (important information) is effective for readability and is characteristic of professional documents aiming to convey precise information reliably.
+
+### System Prompt for Generating Similar Complexity Metrics
+
+"Generate a comprehensive financial document that thoroughly explains fees and charges associated with investment services. Ensure the text includes a mix of short and long sentences, maintaining an average sentence length of approximately 20 words. Use a variety of complex and technical vocabulary suitable for a finance-savvy audience, while occasionally incorporating simpler language for clarity. Include diverse syntactic structures such as declarative statements, lists, and bullet points for organization, along with nested clauses to provide detailed explanations. Aim for a formal, informative tone that balances technical accuracy with approachability, ensuring the content is suitable for presentation to potential investors."

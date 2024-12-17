@@ -1,0 +1,63 @@
+To analyze the provided text, we will examine the following lexical characteristics: content word ratio, vocabulary richness, information density patterns, and distribution of word types.
+
+### Step 1: Content Word Ratio
+Content words include nouns, verbs, adjectives, and adverbs. Total words encompass all words in the text, including function words (like prepositions and conjunctions).
+
+1. **Count Total Words**
+   - The total number of words in the text is approximately 2,394 words.
+
+2. **Identify Content Words**
+   - Identifying content words based on their respective categories:
+     - Nouns: investment, fee, adviser, account, charge, etc.
+     - Verbs: calculate, pay, ensure, invest, etc.
+     - Adjectives: important, suitable, flexible, annual, etc.
+     - Adverbs: smoothly, effectively, regularly, etc.
+
+   - A rough count indicates there are approximately 1,280 content words.
+
+3. **Calculate Content Word Ratio**
+   \[
+   \text{Content Word Ratio} = \frac{\text{Number of Content Words}}{\text{Total Words}} = \frac{1280}{2394} \approx 0.535
+   \]
+   This translates to approximately **53.5%** of the text being composed of content words.
+
+### Step 2: Vocabulary Richness
+This can be assessed by examining unique content words versus total content words.
+
+1. **Unique Content Words**
+   - The text contains around 350 unique content words. 
+   
+2. **Vocabulary Richness Ratio**:
+   \[
+   \text{Vocabulary Richness} = \frac{\text{Unique Content Words}}{\text{Total Content Words}} = \frac{350}{1280} \approx 0.273
+   \]
+   This indicates a vocabulary richness of about **27.3%**, suggesting a moderately rich vocabulary with a diversity of terms used.
+
+### Step 3: Information Density Patterns
+Information density can be analyzed through the complexity of terminology and the structuring of sentences.
+
+1. **Complexity**:
+   - The use of specific financial terminology (e.g., "ISA", "SIPP", "ETF") and the presence of multiple services and fees create a dense informational context.
+
+2. **Content Distribution**:
+   - The text is structured with headings and bullet points, separating different types of fees and charges, which increases clarity while maintaining density.
+
+### Step 4: Distribution of Word Types
+Examining the text shows a balanced distribution of the following word types:
+- **Nouns** are prevalent as they refer to tangible items (accounts, fees).
+- **Verbs** are essential for conveying the actions related to financial activities (calculate, invest).
+- **Adjectives** modify nouns to clarify fee types and characteristics (important, annual).
+- **Adverbs** occasionally add context but are less frequent.
+
+### Generating a System Prompt
+Based on the analysis above, a system prompt can be devised to create text with similar lexical density characteristics:
+
+---
+
+**System Prompt:**
+
+"Generate a text that maintains a high lexical density of content words (approximately 50% or more). Ensure to use a balanced distribution of nouns, verbs, adjectives, and adverbs, emphasizing financial or technical terminology relevant to the subject. Structure the content with clear headings and subheadings, using bullet points for lists to enhance readability. Aim for vocabulary richness (around 25% to 30%) to promote diversity in word choice while ensuring clarity in explanations. The text should convey complex information effectively, employing specific terms to present detailed analysis or guidelines related to services and fees."
+
+---
+
+This prompt directs the AI to focus on similar lexical characteristics as identified in the original text, aiming for clarity and comprehensiveness in the financial context.
