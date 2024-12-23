@@ -1,21 +1,31 @@
-### Complexity Analysis of the Text
+### Complexity Analysis of Provided Text
 
-1. **Sentence Length Patterns:**
-   - The text contains a mix of short, direct sentences and longer, more complex constructions. For instance, simple sentences like, "We calculate your fees…" are intermixed with longer, compound-complex sentences that include multiple clauses, e.g., "If you are unsure about the suitability of an investment you should speak to one of Fidelity's advisers or an authorised financial adviser of your choice."
-   - Average sentence length: Approximately 16-20 words per sentence, with some sentences extending beyond 30 words.
+1. **Sentence Length Patterns**:
+   - The text contains largely medium to long sentences, with an average length of around 20-25 words per sentence. A few sentences are notably shorter for clarity or emphasis.
+   - There are lists and bullet points which effectively condense information but also contribute to longer sentences when expanded—some informational points contain multiple clauses.
 
-2. **Word Complexity Levels:**
-   - The text employs a blend of everyday language with specialized financial terminology. Common terms such as "service fee" and "investment" appear alongside more complex terms like "performance fee" and "bid-offer spread."
-   - Lexical variety is high; the text contains many technical phrases that may be complex for a general audience but are necessary for conveying financial information accurately.
+2. **Word Complexity Levels**:
+   - The vocabulary generally ranges from everyday language to moderately technical financial terminology (e.g., "investment", "administration", "charges", "returns"). This mixed complexity requires a basic understanding of finance to fully comprehend.
+   - Some specialized terms and acronyms (e.g., ISA, SIPP) may present a hurdle for lay readers unfamiliar with investment jargon.
 
-3. **Syntactic Structure Variety:**
-   - The text displays a variety of syntactic structures including declarative sentences, lists, bullet points, tables, and headers and subheaders which help to organize information clearly.
-   - Nested clauses are present in more complex sentences, allowing for detailed explanations without losing clarity, e.g., "specific details are found in the investment's factsheet or Key Information Document."
+3. **Syntactic Structure Variety**:
+   - The text employs an array of syntactic styles, including declarative sentences, explanatory structures (e.g., dependent clauses), and interrogative forms in FAQs.
+   - Lists and defined sections use consistent syntactical parallelism that enhances readability while showing density.
 
-4. **Overall Textual Sophistication:**
-   - The text is informational and professional in tone, as it aims to communicate important financial information clearly and persuasively. Although the language is accessible, the presence of some technical jargon increases its sophistication.
-   - The structure of headings, bullet points, and callouts (important information) is effective for readability and is characteristic of professional documents aiming to convey precise information reliably.
+4. **Overall Textual Sophistication**:
+   - The text appears aimed at a knowledgeable audience, such as potential investors or clients familiar with financial services.
+   - It balances informative detail and guidelines meticulously, creating a thorough overview while maintaining a structured organization with headings and subheadings that enhance navigation and comprehension.
 
-### System Prompt for Generating Similar Complexity Metrics
+### System Prompt for Similar Complexity Metrics
 
-"Generate a comprehensive financial document that thoroughly explains fees and charges associated with investment services. Ensure the text includes a mix of short and long sentences, maintaining an average sentence length of approximately 20 words. Use a variety of complex and technical vocabulary suitable for a finance-savvy audience, while occasionally incorporating simpler language for clarity. Include diverse syntactic structures such as declarative statements, lists, and bullet points for organization, along with nested clauses to provide detailed explanations. Aim for a formal, informative tone that balances technical accuracy with approachability, ensuring the content is suitable for presentation to potential investors."
+**Prompt**: 
+
+"Generate a detailed informational text aimed at individuals seeking financial services, ensuring to include the following complexity metrics: 
+
+1. Use medium to long sentence structures averaged at 20-25 words, incorporating both declarative sentences, numbered lists, and bullet points for enumerations.
+2. Integrate a mix of everyday vocabulary with moderately technical terms related to investments and financial explanations, where appropriate. Aim for clarity while introducing at least 5 specialized financial terms (e.g., ‘portfolio’, ‘capital gains’, ‘diversification’).
+3. Employ a variety of syntactic structures, utilizing dependent clauses and multiple embedded clauses within explanatory sentences, especially in sections that detail fees, service processes, or comparisons of investment products.
+4. Organize content with clear headings and subheadings for sections, and include visual elements (like tables or charts) where quantitative comparisons can enrich understanding.
+5. Conclude with a Frequently Asked Questions (FAQ) section addressing common concerns regarding investment fees, account management, and service transparency, using both declarative and interrogative sentence forms to foster engagement."
+
+This prompt aims to recreate a similar level of complexity, ensuring the produced text is informative yet sophisticated enough to cater to the target audience's informational needs.

@@ -1,30 +1,39 @@
-**Unified System Prompt for Generating Financial Documentation**
+**Comprehensive System Prompt for Financial Text Generation:**
 
-"Create a comprehensive and structured informational guide on fees and charges related to financial services or investment products. The text should exhibit the following characteristics:
+---
 
-1. **Structure and Organization**:
-    - Utilize clear headings and subheadings following a logical hierarchy (e.g., `# Main Title`, `## Section`, `### Subsection`) to facilitate navigation.
-    - Incorporate bulleted and numbered lists to present key information succinctly and clearly. Ensure that important terms or figures are bolded for emphasis.
+**Instruction:** Generate a detailed document that outlines the services and fee structures of a financial advisory firm. Organize the content clearly and effectively by adhering to the following specifications:
 
-2. **Grammar and Sentence Structure**:
-    - Write in a formal, informative tone that is suitable for a general audience with some financial knowledge, aimed at a reading level of grades 10-12. Utilize a mix of long, explanatory sentences alongside shorter, impactful statements to maintain engagement.
-    - Aim for approximately 50% lexical density with a balanced distribution of content words (nouns, verbs, adjectives, adverbs) while ensuring a vocabulary richness of 25-30%.
+1. **Structure and Formatting:**
+   - Use a clear hierarchy of headings and subheadings to categorize information (e.g., Services, Fees at a Glance, FAQs).
+   - Incorporate bulleted and numbered lists for clarity and easy readability.
+   - Implement tables where appropriate to summarize comparisons of services and fees.
+   - Break text into short, manageable paragraphs with sufficient whitespace to avoid overwhelming the reader.
 
-3. **Technical Language and Clarity**:
-    - Employ specific financial terminology (e.g., "net asset value," "annual fees") and ensure that complex terms are clearly explained to maintain accessibility for readers.
-    - Provide examples to illustrate different fee scenarios while avoiding overwhelming jargon.
+2. **Tone and Language:**
+   - Maintain a formal and authoritative tone throughout the document, emphasizing clarity, transparency, and consumer protection.
+   - Use straightforward language that is accessible for late high school to early college readers, avoiding excessive jargon while incorporating relevant financial terminology.
+   - Convey caution through conditional statements (e.g., "If you have concerns...") to guide readers in making informed decisions.
 
-4. **Emphasis and Important Information**:
-    - Highlight crucial information using bolding, italics, or underlining as necessary. Incorporate phrases that indicate important notes or warnings (e.g., "Important information - please keep in mind") to capture the reader's attention regarding critical financial implications.
+3. **Readability and Complexity:**
+   - Aim for a Flesch-Kincaid Grade Level of 10-12, ensuring a balance between academic rigor and general accessibility.
+   - Use an average sentence length of 15-20 words to facilitate comprehension while explaining complex financial concepts.
+   - Clearly define specialized financial terms and include examples or analogies to enhance understanding.
 
-5. **Readability and Accessibility**:
-    - Maintain adequate whitespace between sections, paragraphs, and list items to enhance readability.
-    - Keep paragraphs focused and generally short, ensuring each primarily addresses a single idea or concept.
+4. **Emphasis on Critical Information:**
+   - Highlight key points using bold formatting to draw attention to critical information, such as important disclaimers and fee structures.
+   - Incorporate a FAQs section to address common concerns and inquiries preemptively, providing reassurance to potential clients.
 
-6. **Emotional Tone**:
-    - Convey a neutral, factual tone throughout the document. Aim for a low emotional intensity, with slight peaks of reassurance balanced by cautionary advice on financial investments. The text should instill trust in the reader without evoking strong emotional responses.
+5. **Emotional Tone:**
+   - Maintain a professional, neutral to slightly positive sentiment throughout the text. Provide reassurance regarding significant concerns (e.g., no exit fees) while carefully outlining risks associated with investments.
+   - Gradually build confidence as the text progresses by presenting detailed explanations of services and their benefits, fostering positive engagement without evoking anxiety.
 
-7. **Engagement and Action**:
-    - Incorporate calls to action that encourage reader interaction (e.g., "Download the fee schedule," "Contact us for personalized service") to foster engagement with the service provided.
+6. **Lexical Density:**
+   - Achieve a content word ratio of at least 0.50 and a vocabulary richness of around 0.25 to ensure sufficient information density while maintaining clarity.
+   - Ensure a balanced distribution of word types—approx. 50% nouns, 25% verbs, 15% adjectives, and 10% adverbs—to enhance text engagement and informative quality.
 
-By adhering to these guidelines, produce a clear, informative, and professional text that effectively communicates the necessary details about financial fees and charges while maintaining user confidence and trust."
+**Outcome:** The resulting document should clearly communicate the firm’s services while instilling confidence and encouraging potential clients to seek financial guidance. The tone should be professional yet approachable, effectively guiding readers through complex information in a structured and comprehensible manner.
+
+--- 
+
+This comprehensive system prompt integrates insights from various analyses, ensuring that the generated text is well-structured, informative, and accessible to its intended audience.

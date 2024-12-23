@@ -5,8 +5,48 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 import concurrent.futures
+import logging
+from datetime import datetime
+from colorama import init, Fore, Style
 
-# load_dotenv()
+# Initialize colorama for Windows support
+init()
+
+# Set up logging configuration
+class ColoredFormatter(logging.Formatter):
+    """Custom formatter with colors"""
+    
+    COLORS = {
+        'WARNING': Fore.YELLOW,
+        'ERROR': Fore.RED,
+        'DEBUG': Fore.BLUE,
+        'INFO': Fore.WHITE,
+        'OPENAI': Fore.GREEN
+    }
+
+    def format(self, record):
+        # Add custom level for OpenAI calls
+        if hasattr(record, 'openai_call'):
+            color = self.COLORS['OPENAI']
+        else:
+            color = self.COLORS.get(record.levelname, Fore.WHITE)
+        
+        record.msg = f"{color}{record.msg}{Style.RESET_ALL}"
+        return super().format(record)
+
+# Configure logging with custom formatter
+formatter = ColoredFormatter('%(asctime)s - %(levelname)s - %(message)s')
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(formatter)
+file_handler = logging.FileHandler(f'prompt_generator_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log')
+file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+logger.addHandler(console_handler)
+logger.addHandler(file_handler)
+
+load_dotenv()
 # os.environ['OPENAI_API_KEY']=""
 
 OUTPUT_DIR = "agent_learnings"
@@ -17,12 +57,22 @@ def save_prompt_to_txt(agent_name: str, prompt: str):
     filename = f"{OUTPUT_DIR}/{agent_name}_prompt.txt"
     with open(filename, 'w') as f:
         f.write(prompt)
-    return f"Saved prompt to {filename}"
+    logger.info(f"Saved prompt for {agent_name} to {filename}")
+    return filename
 
 def read_sample_output():
     """Read the sample output file"""
-    with open("sample_output.txt", 'r') as f:
-        return f.read()
+    try:
+        with open("sample_output.txt", 'r') as f:
+            content = f.read()
+            logger.info(f"Successfully read sample output file ({len(content)} characters)")
+            return content
+    except FileNotFoundError:
+        logger.error("sample_output.txt not found!")
+        raise
+    except Exception as e:
+        logger.error(f"Error reading sample output: {str(e)}")
+        raise
 
 # Create a single Swarm client instance
 client = Swarm()
@@ -92,19 +142,32 @@ complexity_measuring_agent = Agent(
 
 def analyze_with_agent(agent, analysis_type):
     """Generic function to analyze text with a given agent"""
-    text = read_sample_output()
-    analysis_prompt = (
-        f"Analyze the following text for its {analysis_type}. "
-        "Based on your analysis, generate a system prompt that would help "
-        f"produce text with similar {analysis_type} characteristics:\n\n"
-        f"{text}"
-    )
-    
-    response = client.run(
-        agent=agent,
-        messages=[{"role": "user", "content": analysis_prompt}]
-    )
-    return save_prompt_to_txt(agent.name.lower().replace('agent', ''), response.messages[0].get('content'))
+    logger.info(f"\nStarting analysis with {agent.name} for {analysis_type}")
+    try:
+        text = read_sample_output()
+        analysis_prompt = (
+            f"Analyze the following text for its {analysis_type}. "
+            "Based on your analysis, generate a system prompt that would help "
+            f"produce text with similar {analysis_type} characteristics:\n\n"
+            f"{text}"
+        )
+        
+        # Use custom attribute for OpenAI calls but with Windows-safe symbols
+        logger.info(f"[AI] Sending request to {agent.name}", extra={'openai_call': True})
+        response = client.run(
+            agent=agent,
+            messages=[{"role": "user", "content": analysis_prompt}]
+        )
+        logger.info(f"[OK] Received response from {agent.name}", extra={'openai_call': True})
+        
+        saved_file = save_prompt_to_txt(
+            agent.name.lower().replace('agent', ''), 
+            response.messages[0].get('content')
+        )
+        return saved_file
+    except Exception as e:
+        logger.error(f"Error in {agent.name} analysis: {str(e)}")
+        raise
 
 def analyze_grammar():
     return analyze_with_agent(grammar_agent, "grammatical patterns, sentence structures, and writing conventions")
@@ -155,13 +218,25 @@ def analyze_complexity():
 
 def aggregate_prompts():
     """Read all prompt files and generate a final combined prompt"""
+    logger.info("Starting prompt aggregation")
     prompts = {}
-    for filename in os.listdir(OUTPUT_DIR):
-        if filename.endswith("_prompt.txt"):
-            agent_name = filename.replace("_prompt.txt", "")
+    
+    # Log the files being processed
+    files = os.listdir(OUTPUT_DIR)
+    prompt_files = [f for f in files if f.endswith("_prompt.txt")]
+    logger.info(f"Found {len(prompt_files)} prompt files to aggregate")
+    
+    for filename in prompt_files:
+        agent_name = filename.replace("_prompt.txt", "")
+        try:
             with open(f"{OUTPUT_DIR}/{filename}", 'r') as f:
                 prompts[agent_name] = f.read()
-    
+                logger.debug(f"Read prompt file: {filename}")
+        except Exception as e:
+            logger.error(f"Error reading {filename}: {str(e)}")
+            prompts[agent_name] = "Not available"
+
+    logger.info("Generating final aggregated prompt")
     aggregation_prompt = (
         "You are tasked with creating a single, comprehensive system prompt based on "
         "the following specialized analyses. Each analysis focuses on a different aspect "
@@ -193,6 +268,8 @@ def aggregate_prompts():
     return save_prompt_to_txt("final", response.messages[0].get('content'))
 
 def main():
+    logger.info(f"\n{Fore.CYAN}=== Starting Prompt Generator ==={Style.RESET_ALL}")
+    
     # Update analysis functions list to include new agents
     analysis_functions = [
         analyze_grammar, 
@@ -206,23 +283,46 @@ def main():
         analyze_complexity
     ]
     
-    print("Starting parallel analysis...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:  # Updated max_workers
+    total_analyses = len(analysis_functions)
+    completed_analyses = 0
+    failed_analyses = []
+    
+    logger.info(f"Initiating parallel analysis with {total_analyses} agents\n")
+    
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         future_to_func = {executor.submit(func): func for func in analysis_functions}
         
         for future in concurrent.futures.as_completed(future_to_func):
             func = future_to_func[future]
             try:
                 result = future.result(timeout=60)
-                print(f"{func.__name__} completed analysis")
+                completed_analyses += 1
+                progress = completed_analyses / total_analyses * 100
+                progress_bar = f"[{'=' * int(progress/2)}{' ' * (50-int(progress/2))}]"
+                logger.info(f"Progress: {progress_bar} {progress:.1f}% - {func.__name__} completed successfully")
             except concurrent.futures.TimeoutError:
-                print(f"{func.__name__} timed out")
+                failed_analyses.append(func.__name__)
+                logger.error(f"[X] {func.__name__} timed out after 60 seconds")
             except Exception as e:
-                print(f"{func.__name__} failed with error: {str(e)}")
+                failed_analyses.append(func.__name__)
+                logger.error(f"[X] {func.__name__} failed with error: {str(e)}")
     
-    print("All analyses complete. Aggregating results...")
-    final_result = aggregate_prompts()
-    print("Final prompt generated and saved")
+    # Summary logging with colors
+    logger.info(f"\n{Fore.CYAN}=== Analysis Summary ==={Style.RESET_ALL}")
+    logger.info(f"Total analyses: {total_analyses}")
+    logger.info(f"Successful analyses: {Fore.GREEN}{completed_analyses}{Style.RESET_ALL}")
+    logger.info(f"Failed analyses: {Fore.RED}{len(failed_analyses)}{Style.RESET_ALL}")
+    if failed_analyses:
+        logger.info(f"Failed functions: {Fore.RED}" + ", ".join(failed_analyses) + Style.RESET_ALL)
+    
+    logger.info(f"\n{Fore.YELLOW}Starting prompt aggregation...{Style.RESET_ALL}")
+    try:
+        final_result = aggregate_prompts()
+        logger.info(f"{Fore.GREEN}Final prompt generated and saved to {final_result}{Style.RESET_ALL}")
+    except Exception as e:
+        logger.error(f"Error during prompt aggregation: {str(e)}")
+    
+    logger.info(f"\n{Fore.CYAN}=== Prompt Generator Completed ==={Style.RESET_ALL}\n")
 
 if __name__ == "__main__":
     main()

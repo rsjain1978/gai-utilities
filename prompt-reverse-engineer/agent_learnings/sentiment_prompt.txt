@@ -1,30 +1,19 @@
 ### Sentiment Analysis
 
-#### Overall Sentiment
-The overall sentiment of the text regarding fees and charges associated with investments is **neutral to positive**. The text primarily presents factual information with some positive undertones related to transparency and the clarity of the fee structure.
+**Overall Sentiment**: The text has a neutral to slightly positive sentiment. It presents factual information regarding fees and charges associated with investing through Fidelity. The tone aims to inform rather than provoke strong emotions. There is an underlying reassurance present when it mentions things that aren't charged, which could positively influence the reader's perception of the service.
 
-#### Emotional Valence
-- **Low Positive Valence**: The text maintains a straightforward and informative tone throughout. It provides essential details about fees, which could be seen as beneficial for potential investors.
-- **Neutrality in Emotional Response**: There are no strongly negative emotions expressed; rather, it fosters a sense of caution with phrases like "the value of investments can go down as well up". 
+**Emotional Valence**: The emotional valence remains primarily neutral, focusing on facts rather than feelings. However, positive undertones are subtly integrated, particularly when noting that there are no exit fees or charges for certain accounts. These statements promote a sense of transparency and customer-oriented service.
 
-#### Sentiment Progression
-- The text begins with a general overview of fees, which is neutral in tone.
-- As it delves into the specifics of service fees, investment charges, and what investors do not have to pay, it may evoke a slight sense of relief or positivity for readers who find a lack of hidden charges reassuring.
-- The final sections emphasize transparency, potentially resulting in a sense of trust and comfort for readers.
+**Sentiment Progression**: The text starts with an advisory note about investment value fluctuation, which could instill a mild anxiety regarding potential losses but is swiftly balanced by detailed explanations of the fee structures. As the text progresses, the clarity and specificity of information provide reassurance, culminating in sections that explicitly describe what customers do not pay for, enhancing positive sentiment.
 
-#### Emotional Undertones
-- **Caution**: Phrases urging investors to consider risks and consult with advisors indicate a cautionary undertone.
-- **Reassurance**: The section that highlights what does not incur any charges imparts a reassuring tone, as it emphasizes the absence of fees for certain account types.
-- **Complexity and Clarity**: While the text is dense with information, it strives for clarity, which is a positive attribute aimed at fostering user confidence.
+**Emotional Undertones**: 
+- **Transparency**: The consistent emphasis on clarity and understanding of fees promotes a feeling of trust.
+- **Reassurance**: Phrases designed to calm fears (like the absence of charges for certain investments) provide a comfort element.
+- **Encouragement**: Encourages users to engage with services that offer guidance, which might improve their investment experience.
 
-#### Overall Emotional Impact
-The emotional impact of the text is primarily **informative** and **pragmatic**. It seeks to equip the reader with necessary insights while invoking a low level of comfort around investing and associated costs. There are elements of transparency and ease, aimed at improving user experience.
+**Overall Emotional Impact**: The impact is designed to be informative rather than emotionally charged. Readers may feel more reassured and confident in their understanding of fees, which can create a positive association with Fidelity's transparency and customer support.
 
-### System Prompt for Generating Similar Text Patterns:
-You are tasked with creating text that presents factual information about a financial service's fees and charges in a manner that emphasizes transparency and clarity. Utilize an informative tone with the following requirements:
-1. **Emotional Valence**: Maintain a low to moderate positive valence that instills confidence in the reader.
-2. **Sentiment Progression**: Start with an overview that sets a neutral ground, progress to specific details that enhance understanding, and conclude with reassuring statements that emphasize the absence of hidden fees and the transparency of the fee structure.
-3. **Emotional Undertones**: Weave in undertones of caution (regarding investment risks) while providing reassurances (like highlighting what does not incur charges). Ensure the information is clear and easy to comprehend.
-4. **Overall Emotional Impact**: Aim for a practical yet comforting impact, ensuring that readers feel informed and empowered to make decisions concerning financial investments. 
+### System Prompt for Similar Text Generation
 
-Incorporate factual language while maintaining an overarching theme of trustworthiness and user-friendliness throughout the document.
+**Prompt**: 
+"Write an informative text about financial services that conveys a neutral to slightly positive sentiment. Focus on providing clear, structured information about fees and charges. Aim for a tone that emphasizes transparency and reassurance to foster trust. Incorporate details that highlight what is not charged, while clearly explaining the structures and conditions associated with fees. Use positive language that encourages users to engage with the services offered, ensuring that the progression of information builds confidence without evoking anxiety. Maintain a professional and approachable tone throughout the text."

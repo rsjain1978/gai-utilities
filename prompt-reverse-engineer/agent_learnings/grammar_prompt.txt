@@ -1,28 +1,25 @@
-### Analysis of Grammatical Patterns and Sentence Structures
+The provided text demonstrates several grammatical patterns and structural conventions:
 
-1. **Structuring and Organization**:
-   - The text is structured into clearly defined sections, often using headings and subheadings to categorize information (e.g., "Fees and charges", "Fees at a glance").
-   - Bulleted and numbered lists provide concise information and highlight important details.
+1. **Headings and Subheadings**: The text uses clear headings (e.g., "Fees and charges", "Fees at a glance", "What you don't pay for") to organize information efficiently.
+  
+2. **Bulleted and Numbered Lists**: Information is presented in both bulleted and numbered lists for clarity, which helps in breaking down complex content and highlights important points.
 
-2. **Tone and Style**:
-   - The tone is formal and informative, suitable for a financial advisory context.
-   - There is a mixture of long, explanatory sentences alongside short, impactful sentences to maintain reader engagement.
+3. **Formal and Legalistic Tone**: The language is formal and somewhat technical, reflecting a professional context. Phrases like "please keep in mind", "If you are unsure", and "you should speak to" convey a sense of authority and caution.
 
-3. **Technical Language**:
-   - The text employs specific financial terminology (e.g., "investment value," "service fees," "dealing charges") indicating a specialized knowledge in the finance sector.
-   - Frequently used technical terms are explained or defined, ensuring clarity for readers.
+4. **Use of Sections and Tables**: Various sections and tables are employed to compare different fee structures clearly, allowing quick access to relevant information.
 
-4. **Emphasis**:
-   - Important information is highlighted through bolding or italics to draw attention (e.g., "Here's what you'll pay", "No service fee for...").
-   - The phrase "Important information - please keep in mind" signals crucial information to the reader.
+5. **Emphasis on Important Information**: Key points are often bolded (e.g., "Important information", "Here's what you'll pay"), directing the reader's attention to critical content.
 
-5. **Use of Examples**:
-   - The text includes examples (e.g., fee structure based on investment amounts) to clarify abstract concepts and help readers understand potential charges.
+6. **Conditional Statements**: The text frequently uses conditional phrases (e.g., "If there's not enough cash", "What if I want to invest using a financial adviser?") to address potential scenarios or choices faced by the reader.
 
-6. **Inviting Action and Engagement**:
-   - Calls to action are included (e.g., "Download the Doing Business with Fidelity document", "Estimate my fees") encouraging readers to interact further with the service.
+7. **Parentheticals and Links**: Additional clarifying information is provided in parentheses (e.g., "(including our wide range of investment options)") and through hyperlinks directing readers to more information.
 
-### Generated Prompt for Similar Text
+8. **FAQs Section**: The inclusion of a FAQs section demonstrates an attempt to preemptively answer common concerns and questions the audience might have.
 
-**System Prompt**:
-"Write a comprehensive informational document outlining the fees and charges associated with a financial service or investment option. Structure your document with clear headings and subheadings to organize content logically. Use bulleted and numbered lists to present key information succinctly. Maintain a formal tone while using specific financial terminology; explain terms as necessary for clarity. Include bolded text for crucial pieces of information and provide examples to illustrate different fee scenarios. Ensure to incorporate calls to action that invite the reader to engage further with the service, like downloading documents or estimating potential charges."
+Based on this analysis, here’s a generated prompt designed to produce text with similar grammatical characteristics:
+
+---
+
+**System Prompt:**
+
+Generate a detailed document outlining the services provided by a financial advisory firm. Use headings and subheadings to clearly organize the content, and incorporate both bulleted and numbered lists for ease of reading. Maintain a formal and authoritative tone, using phrases that emphasize the importance of financial awareness and prudent decision-making. Include tables for clear comparisons of service structures, and highlight critical terms or information in bold. Use conditional statements to address potential client scenarios, and provide links for further reading. Additionally, include a FAQs section to clarify common client inquiries related to services, fees, and procedures.

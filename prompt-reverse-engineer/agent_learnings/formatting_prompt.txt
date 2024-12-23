@@ -1,39 +1,36 @@
 ### Formatting Characteristics Analysis
 
-1. **Paragraph Structure:**
-   - The text is structured into multiple paragraphs that convey specific ideas or points regarding fees and charges. Each paragraph is relatively short, typically focusing on a single aspect to enhance readability and comprehension.
+#### Paragraph Structure
+- The text is structured in a manner where large blocks of text are broken down into smaller, more manageable paragraphs. This enhances readability and allows for easier digestion of information.
+  
+#### Use of Whitespace
+- There is ample use of whitespace between paragraphs and sections. This separation helps distinguish different sections and categories of information, contributing to the overall readability of the document.
+  
+#### Heading Hierarchy
+- The use of headings is consistent, with a clear hierarchy:
+  - Main headings use a large, bold format (#).
+  - Subheadings utilize smaller, bold formats (##, ###).
+  - This tiered approach allows readers to quickly identify the structure of the document and the relationships between sections.
 
-2. **Use of Whitespace:**
-   - Adequate whitespace is used throughout the document. This includes spacing between headings, paragraphs, and list items, which separates different sections clearly and prevents the text from appearing cluttered.
+#### List Formatting
+- Bulleted and numbered lists are employed throughout to present information clearly:
+  - Numbered lists identify steps or items in a sequence.
+  - Bulleted lists present items without implying an order.
+- Emphasis is added to specific parts of the lists (like fees) by using bold font.
 
-3. **Heading Hierarchy:**
-   - A clear heading hierarchy is established with various heading levels, indicated by styles such as "##" for major sections and "###" for subsections. This hierarchy helps the reader easily navigate through the document and identify the structure. 
-   - Example of hierarchy:
-     - `# Fees and charges`
-     - `## Fees at a glance`
-     - `### Service fee`
-     - `### Dealing fees`
+#### Text Emphasis Patterns
+- Key phrases and important information are emphasized through bold formatting, capturing the reader's attention and highlighting critical information quickly.
 
-4. **List Formatting:**
-   - Both ordered (numbered) and unordered (bulleted) lists are used for clarity, especially to outline fees and charges. 
-   - Items within lists are bolded to emphasize key information, such as "Service fees" or categories of investments.
+#### Overall Document Organization
+- The document is organized logically, first defining the charges, followed by specific details about each type of fee, examples, and services. Each section flows naturally into the next, making it easy for readers to follow along.
+- Tables are used effectively to compare fees, enhancing clarity.
+  
+### System Prompt for Similar Formatting Characteristics
 
-5. **Text Emphasis Patterns:**
-   - Key phrases and important pieces of information are emphasized using bold formatting. For example, percentages, fees, and essential notes are frequently highlighted.
-   - Italics and links are used to reference documents and further reading, which adds interactivity and directs the reader to related resources.
-
-6. **Overall Document Organization:**
-   - The document follows a logical flow, starting with general information on fees and charges, moving into specific types of fees, and then providing scenarios/examples for clarity.
-   - Important information is often prefaced with "Important information -", drawing attention to potential risks or considerations. 
-   - Sections conclude with calls to action or links, guiding the reader towards further steps (e.g., downloading documents or reading more).
-
-### System Prompt for Producing Similar Formatting Characteristics
-
-Create a structured document focusing on fees and charges with the following formatting characteristics:
-
-- **Heading Hierarchy:** Use clear heading levels (e.g., `# Main Title`, `## Subheading`, `### Sub-subheading`) to organize content logically.
-- **Paragraph Structure:** Keep paragraphs concise, ideally one idea per paragraph to enhance readability.
-- **Use of Whitespace:** Incorporate adequate spacing between sections, headings, paragraphs, and lists to avoid clutter and improve flow.
-- **List Formatting:** Use ordered and unordered lists to present information clearly. Bold key terms and figures within lists to emphasize important information.
-- **Text Emphasis Patterns:** Utilize bold for critical information, and incorporate italics and hyperlinks when referencing additional documents or resources.
-- **Overall Organization:** Ensure a logical flow that guides readers through general information to specific details, finishing with practical examples and calls to action. Include important disclaimers or notes to highlight critical risks or considerations.
+"Create a document that presents detailed financial information with a clear and structured format. Follow these guidelines:
+1. **Use Paragraph Structure**: Break down text into short, readable paragraphs. Each paragraph should focus on a singular idea or theme.
+2. **Incorporate Whitespace**: Ensure that there is sufficient whitespace between paragraphs, section headings, and lists to enhance readability.
+3. **Establish a Heading Hierarchy**: Use main headings (H1) for key sections, subheadings (H2) for subsections, and smaller headings (H3) for further breakdowns. Ensure all headings are bold.
+4. **Format Lists Effectively**: Utilize bulleted lists for unordered items and numbered lists for ordered sequences. Highlight key terms or significant figures in bold within these lists.
+5. **Emphasize Key Information**: Apply bolding for important phrases or figures to draw attention to them throughout the document.
+6. **Organize Logically**: Structure the document so it flows naturally from introductions of concepts to specific details, examples, and a conclusion or call to action. Use tables where necessary to present comparisons clearly."
