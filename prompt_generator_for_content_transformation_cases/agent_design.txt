@@ -1,0 +1,5 @@
+user selects input and output text files.
+
+file are uploaded to the API and processed by prompt_generator.py
+
+prompt_generator generates the prompt which is shown to the user.

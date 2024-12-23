@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-dotenv
+openai
+termcolor
+python-multipart
+jinja2
+aiofiles 

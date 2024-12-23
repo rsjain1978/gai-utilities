@@ -1,3 +1,4 @@
+import logging
 from swarm import Swarm, Agent, Response
 import os
 from concurrent.futures import ThreadPoolExecutor
@@ -6,33 +7,56 @@ import os
 from dotenv import load_dotenv
 import concurrent.futures
 
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+logger = logging.getLogger(__name__)
+
 load_dotenv()
+logger.info("Environment variables loaded")
 
 # Initialize Swarm client
 client = Swarm()
+logger.info("Swarm client initialized")
 
 OUTPUT_DIR = "agent_learnings"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+logger.info(f"Output directory ensured at: {OUTPUT_DIR}")
 
 def read_files():
     """Read input and output files"""
-    with open("input.txt", "r") as f:
-        input_text = f.read()
-    with open("output.txt", "r") as f:
-        output_text = f.read()
-    return input_text, output_text
+    logger.info("Reading input and output files")
+    try:
+        with open("input.txt", "r") as f:
+            input_text = f.read()
+        with open("output.txt", "r") as f:
+            output_text = f.read()
+        logger.info("Successfully read input and output files")
+        return input_text, output_text
+    except FileNotFoundError as e:
+        logger.error(f"Failed to read files: {str(e)}")
+        raise
 
 def write_learning(agent_name, learning):
     """Write agent's learning to file"""
     filename = os.path.join(OUTPUT_DIR, f"{agent_name}_learning.txt")
-    with open(filename, "w") as f:
-        f.write(learning)
-    return filename
+    logger.info(f"Writing learning for agent '{agent_name}' to {filename}")
+    try:
+        with open(filename, "w") as f:
+            f.write(learning)
+        logger.info(f"Successfully wrote learning for agent '{agent_name}'")
+        return filename
+    except Exception as e:
+        logger.error(f"Failed to write learning for agent '{agent_name}': {str(e)}")
+        raise
 
 def execute_prompt(agent, analysis_prompt):
     """Common function to execute prompt and save results"""
     try:
-        print(f"\nExecuting prompt for {agent.name}...")
+        logger.info(f"Executing prompt for agent: {agent.name}")
         response = client.run(
             agent=agent,
             messages=[{"role": "user", "content": analysis_prompt}]
@@ -40,14 +64,18 @@ def execute_prompt(agent, analysis_prompt):
         
         # Extract content from response
         content = response.messages[-1].get('content', 'No content available')
+        if not content or content == 'No content available':
+            logger.warning(f"No content received from {agent.name}")
         
         # Save to file and return
-        return write_learning(
+        filename = write_learning(
             agent.name.lower().replace('agent', ''), 
             content
         )
+        logger.info(f"Successfully executed prompt for {agent.name} and saved to {filename}")
+        return filename
     except Exception as e:
-        print(f"Error executing prompt for {agent.name}: {str(e)}")
+        logger.error(f"Error executing prompt for {agent.name}: {str(e)}")
         raise
 
 def create_analysis_prompt(input_text, output_text, analysis_points):
@@ -293,10 +321,6 @@ def aggregate_results(results):
         final_prompt_path = write_learning('final_transformation_prompt', final_prompt)
         
         print(f"\nFinal transformation prompt generated and saved to: {final_prompt_path}")
-        print("\nFinal Transformation Prompt:")
-        print("-" * 80)
-        print(final_prompt)
-        print("-" * 80)
         
         return final_prompt
         
@@ -306,7 +330,7 @@ def aggregate_results(results):
 
 async def main():
     try:
-        print("Starting analysis...")
+        logger.info("Starting analysis pipeline")
         input_text, output_text = read_files()
         
         analysis_functions = [
@@ -322,6 +346,8 @@ async def main():
             analyze_text_size
         ]
         
+        logger.info(f"Launching {len(analysis_functions)} parallel analysis tasks")
+        
         # Execute analyses in parallel
         tasks = [
             func(input_text, output_text)
@@ -331,50 +357,63 @@ async def main():
         results = await asyncio.gather(*tasks, return_exceptions=True)
         
         # Check for exceptions in results
-        for result in results:
+        failed_tasks = 0
+        for i, result in enumerate(results):
             if isinstance(result, Exception):
-                print(f"Task failed with error: {result}")
+                failed_tasks += 1
+                logger.error(f"Task {analysis_functions[i].__name__} failed with error: {result}")
+        
+        if failed_tasks:
+            logger.warning(f"{failed_tasks} out of {len(results)} tasks failed")
+        else:
+            logger.info("All analysis tasks completed successfully")
         
         # Process results and create final analysis
-        print("Creating final analysis...")
+        logger.info("Creating final aggregated analysis")
         final_prompt = aggregate_results(results)
         
         # Optionally validate the prompt
-        if input_text and output_text:
-            print("\nValidating generated prompt...")
-            validation_agent = Agent(
-                name="ValidationAgent",
-                instructions="Validate transformation prompt against input/output example",
-                model="gpt-4o-mini"
-            )
+        # if input_text and output_text:
+        #     logger.info("Starting prompt validation")
+        #     validation_agent = Agent(
+        #         name="ValidationAgent",
+        #         instructions="Validate transformation prompt against input/output example",
+        #         model="gpt-4o-mini"
+        #     )
             
-            validation_response = client.run(
-                agent=validation_agent,
-                messages=[{
-                    "role": "user",
-                    "content": f"""Validate if this prompt accurately captures the transformation:
+        #     validation_response = client.run(
+        #         agent=validation_agent,
+        #         messages=[{
+        #             "role": "user",
+        #             "content": f"""Validate if this prompt accurately captures the transformation:
                     
-                    PROMPT:
-                    {final_prompt}
+        #             PROMPT:
+        #             {final_prompt}
                     
-                    INPUT EXAMPLE:
-                    {input_text}
+        #             INPUT EXAMPLE:
+        #             {input_text}
                     
-                    EXPECTED OUTPUT:
-                    {output_text}
+        #             EXPECTED OUTPUT:
+        #             {output_text}
                     
-                    Provide feedback on prompt accuracy and completeness."""
-                }]
-            )
+        #             Provide feedback on prompt accuracy and completeness."""
+        #         }]
+        #     )
             
-            print("\nValidation Results:")
-            print("-" * 80)
-            print(validation_response.messages[-1].get('content', 'No validation results available'))
-            print("-" * 80)
+        #     validation_result = validation_response.messages[-1].get('content', 'No validation results available')
+        #     logger.info("Validation completed")
+        #     logger.info("-" * 80)
+        #     logger.info("Validation Results:")
+        #     logger.info(validation_result)
+        #     logger.info("-" * 80)
+        
+        logger.info("Analysis pipeline completed successfully")
         
     except Exception as e:
-        print(f"Error in main execution: {str(e)}")
+        logger.error(f"Critical error in main execution: {str(e)}", exc_info=True)
         raise
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# if __name__ == "__main__":
+#     logger.info("Starting prompt generator application")
+#     asyncio.run(main())
+#     logger.info("Application completed")

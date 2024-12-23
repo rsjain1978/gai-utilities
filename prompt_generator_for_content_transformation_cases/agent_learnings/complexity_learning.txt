@@ -1,40 +1,26 @@
-# Analysis of Text Transformation
+### Analysis of Complexity Transformations
 
-## 1. Sentence Length Variations
-The **INPUT TEXT** generally contains longer, more complex sentences, which often include multiple clauses and detailed explanations. For example, the original text includes sentences like, "_Our service fee is charged for administering your accounts, with flexible options for amounts less than £25,000._" 
+#### 1. Sentence Length Variations
+The **input text** contains numerous lengthy sentences, often exceeding 20 words or more. For instance, many sentences describe specific fees, conditions, and examples related to service fees and dealing fees. In contrast, the **output text** significantly reduces the sentence length. It employs concise phrases while maintaining essential information. For example:
+- Input: "We calculate your fees based on your total investment value, not per account."
+- Output: "Fidelity calculates fees based on your total investment value."
 
-In contrast, the **OUTPUT TEXT** utilizes shorter and more precise sentences. For instance, it states, "_Service fees include account administration and investment tools, starting at 0.35% annually for under £250,000, reducing to 0.20% for larger investments._" This transformation results in a clearer presentation, as information is conveyed in digestible chunks without loss of meaning.
+This change results in sentences that are more digestible, typically ranging between 10 to 15 words, allowing for quicker reading and comprehension.
 
-### Summary:
-- **INPUT TEXT:** Longer and more complex sentences, often leading to fatigue in readers.
-- **OUTPUT TEXT:** Shorter, clearer sentences that are easier to read and comprehend.
+#### 2. Structural Complexity Changes
+The **input text** displays structural complexity through various formatting styles (e.g., bullet points, sections, subheadings) that break the content down into multiple layers. It employs lengthy tables and numerous headings which convey detailed information across several pages.
 
-## 2. Structural Complexity Changes
-The **INPUT TEXT** employs a more structured approach with headings, bullet points, tables, and extensive use of sub-sections to organize the information. It contains a nesting of ideas and a range of topics under different headings, presenting a comprehensive but densely packed body of information.
+In contrast, the **output text** presents information in a more linear format, prioritizing essential information and summarizing much of the detail into direct statements. The use of bold for key terms adds emphasis without overwhelming the reader with structural elements. This shift simplifies the overall structure by focusing on main points rather than intricate details, creating a more straightforward flow of information.
 
-The **OUTPUT TEXT** simplifies this structure significantly. It condenses various points into a more straightforward narrative format. While it still provides some level of structure, it eschews bullet points and tables in favor of a more fluid style that captures the essential points without elaborating excessively on each.
+#### 3. Cognitive Load Modifications
+The **input text** presents a high cognitive load due to its comprehensive nature and extensive details on fees, various conditions, and illustrative examples. Readers must navigate through numerous sections, tables, and hyperlinks, which can be overwhelming and demand significant attention.
 
-### Summary:
-- **INPUT TEXT:** Highly structured with nested headings, bullet points, and extensive tables.
-- **OUTPUT TEXT:** Simplified structure with a focus on fluid narrative, reducing complexity while maintaining essential details.
+The **output text**, however, reduces cognitive load through summarization and clarity. It condenses essential information into highlights without losing critical data. By eliminating excess details and focusing on high-level summaries, the output allows readers to grasp main ideas quickly and with less effort.
 
-## 3. Cognitive Load Modifications
-The cognitive load required to process the **INPUT TEXT** is significantly higher due to its complexity and the volume of information presented. Readers need to navigate through multiple sections and sub-sections, which can be overwhelming, especially for individuals unfamiliar with investment fees.
+#### 4. Comprehension Difficulty Shifts
+The **input text** requires a higher level of comprehension due to its use of technical jargon, such as specific percentages and fee structures, along with legal disclaimers. This complexity can create barriers for individuals lacking in financial literacy or those unfamiliar with investment terminology.
 
-On the other hand, the **OUTPUT TEXT** reduces cognitive load by presenting the information in a linear format without excessive elaboration. The concise nature of the transformed text allows readers to grasp the key points without needing to cross-reference multiple sections, making it easier for the reader to focus on the essential information.
+Conversely, the **output text** enhances comprehension by simplifying language and reducing jargon while still retaining necessary detail. Complex ideas such as service fees and dealing charges are distilled into basic terms and concepts, making them more accessible to a broader audience. This shift likely lowers the comprehension difficulty, enabling readers with varying levels of financial understanding to engage with the content effectively.
 
-### Summary:
-- **INPUT TEXT:** High cognitive load, requiring extensive mental effort to parse through complex and abundant information.
-- **OUTPUT TEXT:** Lower cognitive load through simplified presentation and streamlined information.
-
-## 4. Comprehension Difficulty Shifts
-The **INPUT TEXT** contains jargon and detailed explanations that can be challenging for the average reader to understand. Terms such as "reinvestment," "ongoing charges," and "financial transaction tax" are not always clearly defined, potentially leading to confusion.
-
-In contrast, the **OUTPUT TEXT** clarifies these concepts by using plain language and providing succinct definitions integrated within the flow of information. This approach increases accessibility and lowers comprehension difficulty, allowing a broader audience to understand the content without prior knowledge of financial terminology.
-
-### Summary:
-- **INPUT TEXT:** Higher comprehension difficulty due to jargon, extensive details, and complex sentence structures.
-- **OUTPUT TEXT:** Lower comprehension difficulty achieved through simplified language and clear definitions, facilitating broader understanding.
-
-# Conclusion
-Overall, the transformation from the **INPUT TEXT** to the **OUTPUT TEXT** represents a significant improvement in readability and accessibility. By employing shorter sentences, a simplified structure, and reducing cognitive load, the transformed text enables better comprehension of the fees and charges associated with investment services, making it accessible to a wider audience.
+### Conclusion
+Overall, the transformations from the input to the output text indicate a deliberate effort to streamline information, reduce complexity, and enhance accessibility. These changes contribute to a more reader-friendly format that likely promotes better understanding and engagement with the content.
